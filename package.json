@@ -1,0 +1,27 @@
+{
+  "name": "sheet-condition-alert",
+  "version": "1.0.0",
+  "description": "Google Apps Script for date notifications to Slack/Discord/Email",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc && cp src/appsscript.json dist/",
+    "watch": "tsc --watch",
+    "push": "npm run build && clasp push",
+    "deploy": "cp src/appsscript.json dist/ && npm run build && clasp push && clasp deploy"
+  },
+  "keywords": [
+    "google-apps-script",
+    "gas",
+    "notification",
+    "date",
+    "slack",
+    "discord"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.83",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}

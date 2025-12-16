@@ -1,0 +1,16 @@
+.idea/
+.clasp.json
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+.serena/
+.npm-cache/

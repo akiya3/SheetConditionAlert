@@ -1,0 +1,12 @@
+{
+    "scriptId": "<ここにScriptIDを設定>",
+    "rootDir": "dist/",
+    "filePushOrder": [
+      "DateUtils.ts",
+      "Config.ts",
+      "SpreadsheetService.ts",
+      "NotificationService.ts",
+      "main.ts"
+    ]
+}
+  
